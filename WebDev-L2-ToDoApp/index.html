@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple and elegant task manager to organize your day.">
+  <meta name="theme-color" content="#f6f7f4">
+  <title>Daylist — Make room for what matters</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Daylist home"><span class="brand-icon">d.</span><span>daylist</span></a>
+      <div class="topbar-note"><span class="status-dot"></span> YOUR PERSONAL TASK SPACE</div>
+      <div class="date-label" id="today-label">YOUR DAY</div>
+    </header>
+
+    <main id="top">
+      <section class="welcome-section">
+        <div>
+          <p class="eyebrow">A LITTLE PROGRESS, EVERY DAY</p>
+          <h1>Make room for<br><span>what matters.</span></h1>
+          <p class="welcome-copy">Clear your mind, focus on your priorities, and make today count.</p>
+        </div>
+        <div class="progress-card" aria-live="polite">
+          <div class="progress-top"><span>DAILY PROGRESS</span><span id="progress-percent">0%</span></div>
+          <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+          <p id="progress-caption">A fresh start. One task at a time.</p>
+        </div>
+      </section>
+
+      <section class="composer-card" aria-label="Add a task">
+        <div class="composer-heading"><span class="plus-mark">＋</span><div><h2>What's on your mind?</h2><p>Add a task to get it out of your head.</p></div></div>
+        <form id="task-form" class="task-form">
+          <label class="sr-only" for="task-input">Task description</label>
+          <input id="task-input" name="task" type="text" maxlength="120" placeholder="e.g. Prepare project presentation" autocomplete="off" required>
+          <button class="add-button" type="submit"><span>＋</span> Add task</button>
+        </form>
+        <p class="form-hint" id="form-hint">Press Enter to add your task · Up to 120 characters</p>
+      </section>
+
+      <section class="task-board" aria-label="Task lists">
+        <section class="task-column" aria-labelledby="pending-heading">
+          <div class="list-heading">
+            <div class="list-title-wrap"><span class="list-icon pending-icon">◷</span><div><h2 id="pending-heading">Pending tasks</h2><p>Things still on your list</p></div></div>
+            <span class="count-pill" id="pending-count">0 pending</span>
+          </div>
+          <ul class="task-list" id="pending-list"></ul>
+          <div class="empty-state" id="pending-empty"><span class="empty-symbol">✳</span><strong>Nothing pending</strong><p>Your list is clear. Add a task when you're ready.</p></div>
+        </section>
+
+        <section class="task-column completed-column" aria-labelledby="completed-heading">
+          <div class="list-heading">
+            <div class="list-title-wrap"><span class="list-icon completed-icon">✓</span><div><h2 id="completed-heading">Completed tasks</h2><p>Look how far you've come</p></div></div>
+            <span class="count-pill completed-pill" id="completed-count">0 completed</span>
+          </div>
+          <ul class="task-list" id="completed-list"></ul>
+          <div class="empty-state" id="completed-empty"><span class="empty-symbol">○</span><strong>Not there yet</strong><p>Finished tasks will find their place here.</p></div>
+        </section>
+      </section>
+
+      <section class="bottom-note"><span>✦</span> Small steps lead to meaningful progress.</section>
+    </main>
+
+    <footer class="site-footer">
+      <span>DAYLIST · YOUR SPACE TO GET THINGS DONE</span>
+      <span>DESIGNED &amp; DEVELOPED BY <strong>MUH. AZZAM IZZADIN</strong></span>
+    </footer>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

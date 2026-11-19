@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Your protected Northstar dashboard.">
+  <meta name="theme-color" content="#101827">
+  <title>Dashboard — Northstar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/dashboard.js" defer></script>
+</head>
+<body class="dashboard-page">
+  <header class="dashboard-nav">
+    <a class="wordmark dark-wordmark" href="/"><span class="brand-icon">N</span> NORTHSTAR</a>
+    <button class="logout-button" id="logout-button" type="button">Sign out <span aria-hidden="true">↗</span></button>
+  </header>
+  <main class="dashboard-main">
+    <div class="dashboard-eyebrow"><span class="pulse-dot"></span> YOUR PRIVATE WORKSPACE</div>
+    <section class="welcome-card">
+      <div>
+        <p class="overline">SIGNED IN SUCCESSFULLY</p>
+        <h1>Good to have<br><em>you here.</em></h1>
+        <p class="welcome-description">Welcome back, <strong id="welcome-name">there</strong>. Your session is active and your protected dashboard is ready.</p>
+      </div>
+      <div class="welcome-symbol" aria-hidden="true">N<span>✳</span></div>
+    </section>
+    <section class="account-grid" aria-label="Account information">
+      <article class="info-card"><span class="card-label">ACCOUNT STATUS</span><strong><span class="status-dot"></span> Active session</strong><p>You are authenticated and can access this page.</p></article>
+      <article class="info-card"><span class="card-label">USERNAME</span><strong id="account-username">—</strong><p>Your registered display name.</p></article>
+      <article class="info-card"><span class="card-label">EMAIL ADDRESS</span><strong id="account-email">—</strong><p>Associated with your account.</p></article>
+    </section>
+    <p class="dashboard-note"><span>✦</span> This is a protected page. Signing out will end your session and return you to the sign-in screen.</p>
+  </main>
+  <footer class="site-credit">DESIGNED &amp; DEVELOPED BY MUH. AZZAM IZZADIN <span>·</span> OIBSIP WEBDEV L2 TASK 4</footer>
+</body>
+</html>
