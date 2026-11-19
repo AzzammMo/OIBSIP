@@ -1,179 +1,251 @@
-# B. J. Habibie — The Power of Ideas
+# OIBSIP — Oasis Infobyte Internship Projects
 
-\<p align="center">
-&#x20; \<strong>A Tribute to Indonesia's Visionary Engineer and Statesman\</strong>
-&#x20; \<br />
-&#x20; An Editorial-Style Tribute Website Built with HTML5 and CSS3
-\</p>
+<p align="center">
+  <strong>WEB DEVELOPMENT & DESIGNING</strong>
+  <br />
+  Level 2 — Internship Project Collection
+</p>
 
-\<p align="center">
-&#x20; \<img src="screenshots/tribute-preview\.png" alt="B. J. Habibie Tribute Page Preview" width="800" />
-\</p>
+<p align="center">
+  A collection of web development projects built as part of the Oasis Infobyte Internship Program, demonstrating practical skills in frontend development, interactive user interfaces, JavaScript programming, and backend authentication.
+</p>
 
 ---
 
-## Overview
+## About This Repository
 
-**The Power of Ideas** is a responsive tribute website dedicated to **Bacharuddin Jusuf Habibie (B. J. Habibie)**, an Indonesian aerospace engineer, visionary, and the third President of the Republic of Indonesia.
+Welcome to my **OIBSIP (Oasis Infobyte Internship Projects)** repository.
 
-Developed as part of the **Oasis Infobyte Internship Program — Web Development & Designing, Level 2**, this project presents Habibie's life journey, educational background, engineering contributions, and national leadership through an editorial-style web experience.
+This repository contains four projects developed as part of the **Web Development & Designing — Level 2** internship track at Oasis Infobyte.
 
-The website combines structured storytelling, historical milestones, inspirational quotations, and a refined visual presentation to communicate the impact of knowledge, innovation, and dedication.
+Each project focuses on applying fundamental and practical web development concepts, from building interactive interfaces and managing application state to implementing server-side authentication and session management.
 
-## Features
+The projects were developed using modern web technologies with an emphasis on functionality, usability, responsive design, and clean code organization.
 
-### 1. Hero Section
+## Developer
 
-- Prominent introduction featuring B. J. Habibie's name and professional identity.
-- Portrait presentation with image caption.
-- Editorial typography and visual composition.
-- Navigation link directing visitors to the biography section.
-- Decorative orbit elements and visual details.
+| Information | Details |
+|---|---|
+| Name | **Muh. Azzam Izzadin** |
+| Program | Oasis Infobyte Internship Program |
+| Track | Web Development & Designing |
+| Level | Level 2 |
+| Repository | OIBSIP |
+| Focus | Web Development, UI/UX, JavaScript & Backend Development |
 
-### 2. Biography Section
+## Project Showcase
 
-- Overview of Habibie's personal background and education.
-- His engineering journey in Germany.
-- Contributions to Indonesia's national technology development.
-- Involvement in the Indonesian aerospace industry.
-- His role as the third President of Indonesia.
+### 01. Calculator
 
-### 3. Inspirational Quote Section
+**Interactive Arithmetic Calculator**
 
-- Dedicated quotation presentation.
-- Distinctive typography and decorative elements.
-- Visual emphasis on Habibie's ideas and personal legacy.
+A responsive calculator application designed to perform fundamental arithmetic operations through an intuitive and interactive user interface.
 
-### 4. Historical Timeline
+**Key Features**
 
-Presents important milestones throughout Habibie's life:
+- Basic arithmetic operations: addition, subtraction, multiplication, and division.
+- Interactive numeric and operator buttons.
+- Operator chaining and calculation handling.
+- Clear and backspace functionality.
+- Division-by-zero error handling.
+- Responsive layout using CSS Grid.
+- Keyboard interaction support.
 
-| Year      | Milestone                                   |
-| --------- | ------------------------------------------- |
-| 1936      | Born in Parepare, South Sulawesi            |
-| 1955      | Continued engineering studies in Germany    |
-| 1965      | Earned his doctoral degree from RWTH Aachen |
-| 1974      | Returned to Indonesia                       |
-| 1995      | N-250 Gatotkaca maiden flight               |
-| 1998–1999 | Served as the third President of Indonesia  |
-| 2019      | Passed away, leaving a lasting legacy       |
+**Technology Stack:** HTML5 · CSS3 · Vanilla JavaScript
 
-### 5. Legacy & Closing Section
+[View Project](./WebDev-L2-Calculator/)
 
-- Reflective closing statement about knowledge and innovation.
-- Emphasis on the importance of learning and contributing to society.
-- Back-to-top navigation for improved browsing experience.
+---
 
-### 6. Navigation & User Experience
+### 02. Tribute Page
 
-- Section-based navigation with anchor links.
-- Semantic HTML structure.
-- Accessible image alternative text.
-- Responsive viewport configuration.
-- Organized content hierarchy for comfortable reading.
+**B. J. Habibie — The Power of Ideas**
+
+A tribute website dedicated to presenting B. J. Habibie's biography, achievements, and contributions through a structured and visually engaging layout.
+
+**Key Features**
+
+- Structured biography and personal background.
+- Image presentation and introductory section.
+- Timeline of important milestones and achievements.
+- Inspirational quotation section.
+- Custom typography and visual styling.
+- Responsive layout for different screen sizes.
+
+**Technology Stack:** HTML5 · CSS3
+
+[View Project](./WebDev-L2-TributePage/)
+
+---
+
+### 03. To-Do Web App
+
+**Daylist — Personal Task Management Application**
+
+A task management application designed to help users organize daily activities, track task progress, and manage their productivity through an interactive dashboard.
+
+**Key Features**
+
+- Create and add new tasks.
+- Edit existing task descriptions.
+- Mark tasks as completed.
+- Delete tasks.
+- Separate pending and completed tasks.
+- Task statistics and progress tracking.
+- Timestamp information.
+- Persistent task storage using Local Storage.
+- Responsive user interface.
+
+**Technology Stack:** HTML5 · CSS3 · Vanilla JavaScript · Local Storage
+
+[View Project](./WebDev-L2-ToDoApp/)
+
+---
+
+### 04. Login Authentication
+
+**Northstar — User Authentication System**
+
+A web-based authentication application featuring a modern interface and server-side authentication workflow. The application provides registration, login, session management, and protected dashboard access.
+
+**Key Features**
+
+- User registration and login.
+- Username and email validation.
+- Duplicate account prevention.
+- Password validation with minimum requirements.
+- Password hashing using bcryptjs.
+- Session-based authentication.
+- Protected dashboard routing.
+- Logout and session termination.
+- Interactive password visibility and strength indicators.
+- Responsive authentication interface.
+
+**Technology Stack:** HTML5 · CSS3 · JavaScript · Node.js · Express.js · Express Session · bcryptjs · JSON Storage
+
+[View Project](./WebDev-L2-LoginAuthentication/)
+
+---
 
 ## Technology Stack
 
-| Technology        | Purpose                                             |
-| ----------------- | --------------------------------------------------- |
-| HTML5             | Semantic page structure and content organization    |
-| CSS3              | Layout, visual styling, and responsive presentation |
-| Google Fonts      | DM Sans and Playfair Display typography             |
-| Wikimedia Commons | Portrait image source                               |
+The projects utilize a combination of frontend and backend technologies.
 
-**No JavaScript framework or external UI library is required.**
+| Category | Technologies |
+|---|---|
+| Frontend | HTML5, CSS3, JavaScript |
+| Backend | Node.js, Express.js |
+| Authentication | bcryptjs, Express Session |
+| Client-side Storage | Local Storage |
+| Data Storage | JSON File Storage |
+| Development Tools | Visual Studio Code, Git, GitHub |
 
-## Design & Visual Direction
-
-The website adopts an editorial-inspired visual direction to create a professional and informative tribute experience.
-
-**Visual characteristics:**
-
-- **Color Palette:** Dark navy and complementary visual tones.
-- **Typography:** DM Sans for readable body text and Playfair Display for expressive headings.
-- **Layout:** Structured content sections with clear visual hierarchy.
-- **Imagery:** Portrait-focused hero presentation.
-- **Composition:** Editorial spacing, timeline elements, and decorative visual details.
-
-The combination of typography, spacing, and section-based storytelling creates a visual experience that reflects the subject's intellectual and historical significance.
-
-## Application Preview
-
-Add actual screenshots of the running website to the `screenshots/` directory.
-
-| Screenshot              | Description                             |
-| ----------------------- | --------------------------------------- |
-| `tribute-preview.png`   | Main hero section and portrait          |
-| `biography-section.png` | Biography and background                |
-| `timeline-section.png`  | Historical milestones                   |
-| `legacy-section.png`    | Inspirational quote and closing section |
-| `mobile-view.png`       | Responsive mobile layout                |
-
-## Project Structure
+## Repository Structure
 
 ```text
-WebDev-L2-TributePage/
-│
-├── index.html
-│
-├── css/
-│   └── style.css
+OIBSIP/
 │
 ├── README.md
 │
-└── screenshots/
-    ├── tribute-preview.png
-    ├── biography-section.png
-    ├── timeline-section.png
-    ├── legacy-section.png
-    └── mobile-view.png
+├── WebDev-L2-Calculator/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   ├── README.md
+│   └── screenshots/
+│
+├── WebDev-L2-TributePage/
+│   ├── index.html
+│   ├── css/
+│   │   └── style.css
+│   ├── README.md
+│   └── screenshots/
+│
+├── WebDev-L2-ToDoApp/
+│   ├── index.html
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── app.js
+│   ├── README.md
+│   └── screenshots/
+│
+└── WebDev-L2-LoginAuthentication/
+    ├── public/
+    │   ├── index.html
+    │   ├── css/
+    │   └── js/
+    ├── views/
+    ├── data/
+    ├── screenshots/
+    ├── server.js
+    ├── package.json
+    ├── .gitignore
+    └── README.md
 ```
 
-## Installation & Setup
+*Note: The structure above represents the intended repository organization. Check each project directory for the exact file and folder names before publishing.*
 
-This project is a static website and can be opened directly in a modern web browser.
+## Getting Started
 
-### 1. Clone the Repository
+Each project is maintained independently and can be accessed through its respective directory.
+
+### Frontend Projects
+
+For the Calculator, Tribute Page, and To-Do Web App:
+
+1. Clone this repository.
+2. Navigate to the desired project directory.
+3. Open `index.html` in your browser or use a local development server.
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/OIBSIP.git
+cd OIBSIP
 ```
 
-### 2. Navigate to the Project Directory
+### Login Authentication
+
+For the Northstar Login Authentication project:
 
 ```bash
-cd OIBSIP/WebDev-L2-TributePage
+cd WebDev-L2-LoginAuthentication
+npm install
+npm start
 ```
 
-### 3. Run the Website
+Open the application in your browser:
 
-Open `index.html` directly in your browser.
+```text
+http://localhost:3000
+```
 
-Alternatively, use the Visual Studio Code Live Server extension to launch the website through a local development server.
+Refer to each project's README for detailed setup and execution instructions.
 
 ## Learning Outcomes
 
-Through this project, I strengthened my practical understanding of:
+Through these projects, I strengthened my practical understanding of:
 
-- Semantic HTML5 and structured content development.
-- CSS-based visual composition and layout techniques.
-- Typography selection and visual hierarchy.
-- Responsive website design principles.
-- Anchor-based navigation and page section organization.
-- Accessibility considerations through semantic elements and descriptive image attributes.
-- Editorial-style storytelling through web design.
+- Building responsive and interactive web interfaces.
+- Implementing JavaScript logic and event-driven interactions.
+- Managing application state and browser-based storage.
+- Structuring maintainable frontend code.
+- Developing server-side applications using Node.js and Express.js.
+- Implementing authentication, password hashing, and session management.
+- Organizing software projects and documenting development workflows.
 
-## Internship Information
+## Acknowledgement
 
-| Information      | Details                     |
-| ---------------- | --------------------------- |
-| Organization     | Oasis Infobyte              |
-| Internship Track | Web Development & Designing |
-| Level            | Level 2                     |
-| Task             | Tribute Page                |
-| Subject          | B. J. Habibie               |
-| Developer        | Muh. Azzam Izzadin          |
+I would like to express my appreciation to **Oasis Infobyte** for providing the opportunity to participate in the internship program and gain practical experience through project-based learning.
+
+This project collection represents my learning progress, technical exploration, and commitment to continuously improving my web development skills.
 
 ---
 
-\<p align="center">   \<strong>Designed & Developed by Muh. Azzam Izzadin\</strong>   \<br />   Web Development & Designing — Level 2   \<br />   \<sub>Oasis Infobyte Internship Program\</sub> \</p>
+<p align="center">
+  <strong>Developed by Muh. Azzam Izzadin</strong>
+  <br />
+  Web Development & Designing — Level 2
+  <br />
+  <br />
+  <sub>Oasis Infobyte Internship Program</sub>
+</p>
