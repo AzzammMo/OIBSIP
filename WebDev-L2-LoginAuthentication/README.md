@@ -1,8 +1,16 @@
 # Northstar — User Authentication System
 
-\<p align="center">   \<strong>Your Space. Your Momentum.\</strong>   \<br />   A Modern Web-Based Authentication Application   \<br />   Built with HTML5, CSS3, JavaScript, Node.js, and Express.js \</p>
+<p align="center">
+  <strong>Your Space. Your Momentum.</strong>
+  <br />
+  A Modern Web-Based Authentication Application
+  <br />
+  Built with HTML5, CSS3, JavaScript, Node.js, and Express.js
+</p>
 
-\<p align="center">   \<img src="screenshots/northstar-preview\.png" alt="Northstar Authentication Interface Preview" width="850" /> \</p>
+<p align="center">
+  <img src="screenshots/northstar-preview.png" alt="Northstar Authentication Interface Preview" width="850" />
+</p>
 
 ---
 
@@ -72,17 +80,17 @@ Northstar focuses on maintaining a clear separation between the user interface, 
 
 ## Technology Stack
 
-| Technology         | Purpose                                        |
-| ------------------ | ---------------------------------------------- |
-| HTML5              | Authentication and dashboard structure         |
-| CSS3               | Responsive interface and visual styling        |
+| Technology | Purpose |
+|---|---|
+| HTML5 | Authentication and dashboard structure |
+| CSS3 | Responsive interface and visual styling |
 | Vanilla JavaScript | Client-side interactions and API communication |
-| Node.js            | Server-side JavaScript runtime                 |
-| Express.js         | Backend application and HTTP routing           |
-| Express Session    | Session-based authentication                   |
-| bcryptjs           | Password hashing and verification              |
-| JSON Storage       | User account data persistence                  |
-| Google Fonts       | DM Sans and Manrope typography                 |
+| Node.js | Server-side JavaScript runtime |
+| Express.js | Backend application and HTTP routing |
+| Express Session | Session-based authentication |
+| bcryptjs | Password hashing and verification |
+| JSON Storage | User account data persistence |
+| Google Fonts | DM Sans and Manrope typography |
 
 ## Application Architecture
 
@@ -151,13 +159,13 @@ Northstar follows a client-server architecture that separates frontend interacti
 
 The backend provides the following authentication endpoints:
 
-| Method | Endpoint        | Description                             |
-| ------ | --------------- | --------------------------------------- |
-| POST   | `/api/register` | Register a new user                     |
-| POST   | `/api/login`    | Authenticate an existing user           |
-| GET    | `/api/me`       | Retrieve the current authenticated user |
-| POST   | `/api/logout`   | Terminate the current session           |
-| GET    | `/dashboard`    | Access the protected dashboard          |
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/api/register` | Register a new user |
+| POST | `/api/login` | Authenticate an existing user |
+| GET | `/api/me` | Retrieve the current authenticated user |
+| POST | `/api/logout` | Terminate the current session |
+| GET | `/dashboard` | Access the protected dashboard |
 
 ## Security Implementation
 
@@ -178,13 +186,13 @@ The application implements several security-related mechanisms:
 
 Add actual screenshots of the running Northstar application to the `screenshots/` directory.
 
-| Screenshot               | Description                                 |
-| ------------------------ | ------------------------------------------- |
-| `northstar-preview.png`  | Main sign-in interface                      |
-| `register-interface.png` | User registration interface                 |
-| `password-strength.png`  | Password strength and validation indicators |
-| `dashboard-preview.png`  | Authenticated user dashboard                |
-| `mobile-view.png`        | Responsive authentication interface         |
+| Screenshot | Description |
+|---|---|
+| `northstar-preview.png` | Main sign-in interface |
+| `register-interface.png` | User registration interface |
+| `password-strength.png` | Password strength and validation indicators |
+| `dashboard-preview.png` | Authenticated user dashboard |
+| `mobile-view.png` | Responsive authentication interface |
 
 ## Project Structure
 
@@ -305,22 +313,22 @@ Through this project, I strengthened my practical understanding of:
 
 ## Internship Information
 
-| Information      | Details                     |
-| ---------------- | --------------------------- |
-| Organization     | Oasis Infobyte              |
+| Information | Details |
+|---|---|
+| Organization | Oasis Infobyte |
 | Internship Track | Web Development & Designing |
-| Level            | Level 2                     |
-| Task             | Login Authentication        |
-| Application Name | Northstar                   |
-| Backend          | Node.js & Express.js        |
-| Developer        | Muh. Azzam Izzadin          |
+| Level | Level 2 |
+| Task | Login Authentication |
+| Application Name | Northstar |
+| Backend | Node.js & Express.js |
+| Developer | Muh. Azzam Izzadin |
 
 ---
 
-\<p align="center">
-&#x20; \<strong>Designed & Developed by Muh. Azzam Izzadin\</strong>
-&#x20; \<br />
-&#x20; Web Development & Designing — Level 2
-&#x20; \<br />
-&#x20; \<sub>Oasis Infobyte Internship Program\</sub>
-\</p>
+<p align="center">
+  <strong>Designed & Developed by Muh. Azzam Izzadin</strong>
+  <br />
+  Web Development & Designing — Level 2
+  <br />
+  <sub>Oasis Infobyte Internship Program</sub>
+</p>
