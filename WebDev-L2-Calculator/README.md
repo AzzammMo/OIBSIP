@@ -1,10 +1,8 @@
 # Calculator — Interactive Web Calculator
 
-\<p align="center">
-&#x20; \*\*A Simple, Responsive & Interactive Arithmetic Calculator\*\*
-&#x20; \<br />
-&#x20; Built with HTML5, CSS3, and Vanilla JavaScript
-\</p>
+**A Simple, Responsive & Interactive Arithmetic Calculator**
+
+Built with HTML5, CSS3, and Vanilla JavaScript
 
 ---
 
@@ -48,13 +46,13 @@ Built entirely with HTML, CSS, and Vanilla JavaScript, this project demonstrates
 
 ## Technology Stack
 
-| Technology           | Purpose                                            |
-| -------------------- | -------------------------------------------------- |
-| HTML5                | Application structure and semantic elements        |
-| CSS3                 | Responsive layout, styling, and interactive states |
-| Vanilla JavaScript   | Calculator logic and DOM interactions              |
-| CSS Grid             | Four-column calculator keypad                      |
-| Google Fonts — Inter | Application typography                             |
+| Technology | Purpose |
+|---|---|
+| HTML5 | Application structure and semantic elements |
+| CSS3 | Responsive layout, styling, and interactive states |
+| Vanilla JavaScript | Calculator logic and DOM interactions |
+| CSS Grid | Four-column calculator keypad |
+| Google Fonts — Inter | Application typography |
 
 **No external JavaScript frameworks or calculation libraries are required.**
 
@@ -64,25 +62,25 @@ The following screenshots demonstrate the calculator interface, calculation func
 
 ### 1. Main Calculator Interface
 
-
+![Calculator Application Preview](screenshots/calculator-preview.png)
 
 *Main calculator interface and interactive keypad.*
 
 ### 2. Calculation Result
 
-
+![Calculation Result](screenshots/calculation-result.png)
 
 *Example arithmetic expression and calculated result.*
 
 ### 3. Error Handling
 
-
+![Calculator Error Handling](screenshots/error-handling.png)
 
 *Division-by-zero and invalid calculation handling.*
 
 ### 4. Responsive Mobile Interface
 
-
+![Calculator Mobile Interface](screenshots/mobile-view.png)
 
 *Responsive calculator interface on mobile screens.*
 
@@ -136,15 +134,15 @@ Alternatively, use the Visual Studio Code Live Server extension to run the appli
 
 ### Keyboard Shortcuts
 
-| Key             | Action                |
-| --------------- | --------------------- |
-| `0–9`           | Enter numeric values  |
-| `+` `-` `*` `/` | Arithmetic operators  |
-| `%`             | Modulo operation      |
-| `.`             | Decimal point         |
-| `Enter` or `=`  | Calculate result      |
-| `Backspace`     | Delete last character |
-| `Escape`        | Clear calculator      |
+| Key | Action |
+|---|---|
+| `0–9` | Enter numeric values |
+| `+` `-` `*` `/` | Arithmetic operators |
+| `%` | Modulo operation |
+| `.` | Decimal point |
+| `Enter` or `=` | Calculate result |
+| `Backspace` | Delete last character |
+| `Escape` | Clear calculator |
 
 ## Implementation Highlights
 
@@ -190,14 +188,18 @@ This project strengthened practical understanding of:
 
 ## Internship Information
 
-| Information      | Details                     |
-| ---------------- | --------------------------- |
-| Organization     | Oasis Infobyte              |
+| Information | Details |
+|---|---|
+| Organization | Oasis Infobyte |
 | Internship Track | Web Development & Designing |
-| Level            | Level 2                     |
-| Project          | Calculator                  |
-| Developer        | Muh. Azzam Izzadin          |
+| Level | Level 2 |
+| Project | Calculator |
+| Developer | Muh. Azzam Izzadin |
 
 ---
 
-\<p align="center">   \*\*Developed by Muh. Azzam Izzadin\*\*   \<br />   Web Development & Designing — Level 2   \<br />   \<sub>Oasis Infobyte Internship Program\</sub> \</p>
+**Developed by Muh. Azzam Izzadin**
+
+Web Development & Designing — Level 2
+
+*Oasis Infobyte Internship Program*
