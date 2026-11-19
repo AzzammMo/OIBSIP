@@ -1,8 +1,12 @@
 # B. J. Habibie — The Power of Ideas
 
-\<p align="center">   \<strong>A Tribute to Indonesia's Visionary Engineer and Third President\</strong>   \<br />   A Responsive Tribute Website   \<br />   Built with HTML5 and CSS3 \</p>
-
-\<p align="center">   \<img src="screenshots/tribute-preview\.png" alt="B. J. Habibie Tribute Website Preview" width="850" /> \</p>
+<p align="center">
+  **A Tribute to Indonesia's Visionary Engineer and Third President**
+  <br />
+  A Responsive Tribute Website
+  <br />
+  Built with HTML5 and CSS3
+</p>
 
 ---
 
@@ -76,12 +80,12 @@ A dedicated section highlighting an inspirational message associated with Habibi
 
 ## Technology Stack
 
-| Technology        | Purpose                                            |
-| ----------------- | -------------------------------------------------- |
-| HTML5             | Semantic website structure and content             |
-| CSS3              | Layout, styling, typography, and responsive design |
-| Google Fonts      | DM Sans and Playfair Display typography            |
-| Wikimedia Commons | Portrait image resource                            |
+| Technology | Purpose |
+|---|---|
+| HTML5 | Semantic website structure and content |
+| CSS3 | Layout, styling, typography, and responsive design |
+| Google Fonts | DM Sans and Playfair Display typography |
+| Wikimedia Commons | Portrait image resource |
 
 **No external JavaScript frameworks or backend services are required.**
 
@@ -89,35 +93,35 @@ A dedicated section highlighting an inspirational message associated with Habibi
 
 The following screenshots demonstrate the main sections of the tribute website.
 
-\<p align="center">
-&#x20; \<img src="screenshots/tribute-preview\.png" alt="Tribute Website Main Preview" width="850" />
-&#x20; \<br />
-&#x20; \<em>Main tribute website interface\</em>
-\</p>
+### 1. Main Website Preview
 
-\<p align="center">
-&#x20; \<img src="screenshots/biography-section.png" alt="Biography Section" width="850" />
-&#x20; \<br />
-&#x20; \<em>Biography and personal background\</em>
-\</p>
+![B. J. Habibie Tribute Website Preview](screenshots/tribute-preview.png)
 
-\<p align="center">
-&#x20; \<img src="screenshots/timeline-section.png" alt="Historical Timeline Section" width="850" />
-&#x20; \<br />
-&#x20; \<em>Historical milestones and achievements\</em>
-\</p>
+*Main tribute website interface*
 
-\<p align="center">
-&#x20; \<img src="screenshots/legacy-section.png" alt="Legacy Section" width="850" />
-&#x20; \<br />
-&#x20; \<em>Legacy and closing section\</em>
-\</p>
+### 2. Biography Section
 
-\<p align="center">
-&#x20; \<img src="screenshots/mobile-view\.png" alt="Responsive Mobile Interface" width="400" />
-&#x20; \<br />
-&#x20; \<em>Responsive mobile layout\</em>
-\</p>
+![Biography Section](screenshots/biography-section.png)
+
+*Biography and personal background*
+
+### 3. Historical Timeline
+
+![Historical Timeline Section](screenshots/timeline-section.png)
+
+*Historical milestones and achievements*
+
+### 4. Legacy Section
+
+![Legacy Section](screenshots/legacy-section.png)
+
+*Legacy and closing section*
+
+### 5. Responsive Mobile Interface
+
+![Responsive Mobile Interface](screenshots/mobile-view.png)
+
+*Responsive mobile layout*
 
 ## Project Structure
 
@@ -197,21 +201,21 @@ The biographical information presented in this project can be explored through t
 
 ## Internship Information
 
-| Information      | Details                     |
-| ---------------- | --------------------------- |
-| Organization     | Oasis Infobyte              |
+| Information | Details |
+|---|---|
+| Organization | Oasis Infobyte |
 | Internship Track | Web Development & Designing |
-| Level            | Level 2                     |
-| Task             | Tribute Page                |
-| Subject          | B. J. Habibie               |
-| Developer        | Muh. Azzam Izzadin          |
+| Level | Level 2 |
+| Task | Tribute Page |
+| Subject | B. J. Habibie |
+| Developer | Muh. Azzam Izzadin |
 
 ---
 
-\<p align="center">
-&#x20; \<strong>Designed & Developed by Muh. Azzam Izzadin\</strong>
-&#x20; \<br />
-&#x20; Web Development & Designing — Level 2
-&#x20; \<br />
-&#x20; \<sub>Oasis Infobyte Internship Program\</sub>
-\</p>
+<p align="center">
+  **Designed & Developed by Muh. Azzam Izzadin**
+  <br />
+  Web Development & Designing — Level 2
+  <br />
+  <sub>Oasis Infobyte Internship Program</sub>
+</p>
