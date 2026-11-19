@@ -1,16 +1,10 @@
 # Daylist — Personal Task Management Application
 
-<p align="center">
-  <strong>Make Room for What Matters.</strong>
-  <br />
-  A Simple, Elegant & Interactive To-Do Web Application
-  <br />
-  Built with HTML5, CSS3, and Vanilla JavaScript
-</p>
+**Make Room for What Matters.**
 
-<p align="center">
-  <img src="screenshots/daylist-preview.png" alt="Daylist Task Management Application Preview" width="850" />
-</p>
+A Simple, Elegant & Interactive To-Do Web Application
+
+Built with HTML5, CSS3, and Vanilla JavaScript
 
 ---
 
@@ -79,35 +73,35 @@ Tasks can remain available after refreshing the browser, without requiring a bac
 
 The following screenshots demonstrate the main interfaces and functionality of Daylist.
 
-<p align="center">
-  <img src="screenshots/daylist-preview.png" alt="Daylist Main Dashboard" width="850" />
-  <br />
-  <em>Main application dashboard</em>
-</p>
+### 1. Main Application Dashboard
 
-<p align="center">
-  <img src="screenshots/pending-tasks.png" alt="Daylist Pending Tasks" width="850" />
-  <br />
-  <em>Pending task management interface</em>
-</p>
+![Daylist Main Dashboard](screenshots/daylist-preview.png)
 
-<p align="center">
-  <img src="screenshots/completed-tasks.png" alt="Daylist Completed Tasks" width="850" />
-  <br />
-  <em>Completed task list</em>
-</p>
+*Main application dashboard.*
 
-<p align="center">
-  <img src="screenshots/progress-tracking.png" alt="Daylist Progress Tracking" width="850" />
-  <br />
-  <em>Daily progress tracking</em>
-</p>
+### 2. Pending Tasks
 
-<p align="center">
-  <img src="screenshots/mobile-view.png" alt="Daylist Mobile Interface" width="400" />
-  <br />
-  <em>Responsive mobile interface</em>
-</p>
+![Daylist Pending Tasks](screenshots/pending-tasks.png)
+
+*Pending task management interface.*
+
+### 3. Completed Tasks
+
+![Daylist Completed Tasks](screenshots/completed-tasks.png)
+
+*Completed task list.*
+
+### 4. Daily Progress Tracking
+
+![Daylist Progress Tracking](screenshots/progress-tracking.png)
+
+*Daily progress tracking.*
+
+### 5. Responsive Mobile Interface
+
+![Daylist Mobile Interface](screenshots/mobile-view.png)
+
+*Responsive mobile interface.*
 
 ## Project Structure
 
@@ -232,10 +226,8 @@ Through this project, I strengthened my practical understanding of:
 
 ---
 
-<p align="center">
-  <strong>Designed & Developed by Muh. Azzam Izzadin</strong>
-  <br />
-  Web Development & Designing — Level 2
-  <br />
-  <sub>Oasis Infobyte Internship Program</sub>
-</p>
+**Designed & Developed by Muh. Azzam Izzadin**
+
+Web Development & Designing — Level 2
+
+*Oasis Infobyte Internship Program*
