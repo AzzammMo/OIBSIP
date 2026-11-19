@@ -1,8 +1,14 @@
 # OIBSIP — Oasis Infobyte Internship Projects
 
-\<p align="center">   \<strong>WEB DEVELOPMENT & DESIGNING\</strong>   \<br />   Level 2 — Internship Project Collection \</p>
+<p align="center">
+  <strong>WEB DEVELOPMENT & DESIGNING</strong>
+  <br />
+  Level 2 — Internship Project Collection
+</p>
 
-\<p align="center">   A collection of web development projects built as part of the Oasis Infobyte Internship Program, demonstrating practical skills in frontend development, interactive user interfaces, JavaScript programming, and backend authentication. \</p>
+<p align="center">
+  A collection of web development projects built as part of the Oasis Infobyte Internship Program, demonstrating practical skills in frontend development, interactive user interfaces, JavaScript programming, and backend authentication.
+</p>
 
 ---
 
@@ -18,14 +24,14 @@ The projects were developed using modern web technologies with an emphasis on fu
 
 ## Developer
 
-| Information | Details                                                  |
-| ----------- | -------------------------------------------------------- |
-| Name        | **Muh. Azzam Izzadin**                                   |
-| Program     | Oasis Infobyte Internship Program                        |
-| Track       | Web Development & Designing                              |
-| Level       | Level 2                                                  |
-| Repository  | OIBSIP                                                   |
-| Focus       | Web Development, UI/UX, JavaScript & Backend Development |
+| Information | Details |
+|---|---|
+| Name | **Muh. Azzam Izzadin** |
+| Program | Oasis Infobyte Internship Program |
+| Track | Web Development & Designing |
+| Level | Level 2 |
+| Repository | OIBSIP |
+| Focus | Web Development, UI/UX, JavaScript & Backend Development |
 
 ## Project Showcase
 
@@ -53,9 +59,9 @@ A responsive calculator application designed to perform fundamental arithmetic o
 
 ### 02. Tribute Page
 
-**Responsive Tribute Website**
+**B. J. Habibie — The Power of Ideas**
 
-A tribute website dedicated to presenting an individual's biography, achievements, and meaningful contributions through a structured and visually engaging layout.
+A tribute website dedicated to presenting B. J. Habibie's biography, achievements, and contributions through a structured and visually engaging layout.
 
 **Key Features**
 
@@ -108,7 +114,7 @@ A web-based authentication application featuring a modern interface and server-s
 - Username and email validation.
 - Duplicate account prevention.
 - Password validation with minimum requirements.
-- Password hashing using bcrypt.
+- Password hashing using bcryptjs.
 - Session-based authentication.
 - Protected dashboard routing.
 - Logout and session termination.
@@ -125,14 +131,14 @@ A web-based authentication application featuring a modern interface and server-s
 
 The projects utilize a combination of frontend and backend technologies.
 
-| Category            | Technologies                    |
-| ------------------- | ------------------------------- |
-| Frontend            | HTML5, CSS3, JavaScript         |
-| Backend             | Node.js, Express.js             |
-| Authentication      | bcryptjs, Express Session       |
-| Client-side Storage | Local Storage                   |
-| Data Storage        | JSON File Storage               |
-| Development Tools   | Visual Studio Code, Git, GitHub |
+| Category | Technologies |
+|---|---|
+| Frontend | HTML5, CSS3, JavaScript |
+| Backend | Node.js, Express.js |
+| Authentication | bcryptjs, Express Session |
+| Client-side Storage | Local Storage |
+| Data Storage | JSON File Storage |
+| Development Tools | Visual Studio Code, Git, GitHub |
 
 ## Repository Structure
 
@@ -150,28 +156,35 @@ OIBSIP/
 │
 ├── WebDev-L2-TributePage/
 │   ├── index.html
-│   ├── style.css
+│   ├── css/
+│   │   └── style.css
 │   ├── README.md
 │   └── screenshots/
 │
 ├── WebDev-L2-ToDoApp/
 │   ├── index.html
-│   ├── style.css
-│   ├── script.js
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── app.js
 │   ├── README.md
 │   └── screenshots/
 │
 └── WebDev-L2-LoginAuthentication/
     ├── public/
+    │   ├── index.html
+    │   ├── css/
+    │   └── js/
     ├── views/
     ├── data/
+    ├── screenshots/
     ├── server.js
     ├── package.json
-    ├── README.md
-    └── screenshots/
+    ├── .gitignore
+    └── README.md
 ```
 
-*Note: The structure above represents the intended repository organization. Individual project files may vary according to their implementation.*
+*Note: The structure above represents the intended repository organization. Check each project directory for the exact file and folder names before publishing.*
 
 ## Getting Started
 
@@ -192,7 +205,7 @@ cd OIBSIP
 
 ### Login Authentication
 
-For the Login Authentication project:
+For the Northstar Login Authentication project:
 
 ```bash
 cd WebDev-L2-LoginAuthentication
@@ -215,7 +228,7 @@ Through these projects, I strengthened my practical understanding of:
 - Building responsive and interactive web interfaces.
 - Implementing JavaScript logic and event-driven interactions.
 - Managing application state and browser-based storage.
-- Structuring reusable and maintainable frontend code.
+- Structuring maintainable frontend code.
 - Developing server-side applications using Node.js and Express.js.
 - Implementing authentication, password hashing, and session management.
 - Organizing software projects and documenting development workflows.
@@ -228,11 +241,11 @@ This project collection represents my learning progress, technical exploration, 
 
 ---
 
-\<p align="center">
-&#x20; \<strong>Developed by Muh. Azzam Izzadin\</strong>
-&#x20; \<br />
-&#x20; Web Development & Designing — Level 2
-&#x20; \<br />
-&#x20; \<br />
-&#x20; \<sub>Oasis Infobyte Internship Program\</sub>
-\</p>
+<p align="center">
+  <strong>Developed by Muh. Azzam Izzadin</strong>
+  <br />
+  Web Development & Designing — Level 2
+  <br />
+  <br />
+  <sub>Oasis Infobyte Internship Program</sub>
+</p>
