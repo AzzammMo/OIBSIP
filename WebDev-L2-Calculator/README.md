@@ -1,14 +1,10 @@
 # Calculator — Interactive Web Calculator
 
-<p align="center">
-  <strong>A Simple, Responsive & Interactive Arithmetic Calculator</strong>
-  <br />
-  Built with HTML5, CSS3, and Vanilla JavaScript
-</p>
-
-<p align="center">
-  <img src="screenshots/calculator-preview.png" alt="Calculator Application Preview" width="320" />
-</p>
+\<p align="center">
+&#x20; \*\*A Simple, Responsive & Interactive Arithmetic Calculator\*\*
+&#x20; \<br />
+&#x20; Built with HTML5, CSS3, and Vanilla JavaScript
+\</p>
 
 ---
 
@@ -52,38 +48,53 @@ Built entirely with HTML, CSS, and Vanilla JavaScript, this project demonstrates
 
 ## Technology Stack
 
-| Technology | Purpose |
-|---|---|
-| HTML5 | Application structure and semantic elements |
-| CSS3 | Responsive layout, styling, and interactive states |
-| Vanilla JavaScript | Calculator logic and DOM interactions |
-| CSS Grid | Four-column calculator keypad |
-| Google Fonts — Inter | Application typography |
+| Technology           | Purpose                                            |
+| -------------------- | -------------------------------------------------- |
+| HTML5                | Application structure and semantic elements        |
+| CSS3                 | Responsive layout, styling, and interactive states |
+| Vanilla JavaScript   | Calculator logic and DOM interactions              |
+| CSS Grid             | Four-column calculator keypad                      |
+| Google Fonts — Inter | Application typography                             |
 
 **No external JavaScript frameworks or calculation libraries are required.**
 
 ## Application Preview
 
-Add your actual application screenshots inside the `screenshots/` directory.
+The following screenshots demonstrate the calculator interface, calculation functionality, error handling, and responsive mobile layout.
 
-Suggested documentation:
+### 1. Main Calculator Interface
 
-| Screenshot | Description |
-|---|---|
-| `calculator-preview.png` | Main calculator interface |
-| `calculation-result.png` | Example arithmetic calculation |
-| `error-handling.png` | Division-by-zero error handling |
-| `mobile-view.png` | Responsive mobile interface |
+
+
+*Main calculator interface and interactive keypad.*
+
+### 2. Calculation Result
+
+
+
+*Example arithmetic expression and calculated result.*
+
+### 3. Error Handling
+
+
+
+*Division-by-zero and invalid calculation handling.*
+
+### 4. Responsive Mobile Interface
+
+
+
+*Responsive calculator interface on mobile screens.*
 
 ## Project Structure
 
 ```text
 WebDev-L2-Calculator/
 │
-├── index.html          # Calculator application structure
-├── style.css           # Styling and responsive layout
-├── script.js           # Calculator logic and event handling
-├── README.md           # Project documentation
+├── index.html
+├── style.css
+├── script.js
+├── README.md
 │
 └── screenshots/
     ├── calculator-preview.png
@@ -125,15 +136,15 @@ Alternatively, use the Visual Studio Code Live Server extension to run the appli
 
 ### Keyboard Shortcuts
 
-| Key | Action |
-|---|---|
-| `0–9` | Enter numeric values |
-| `+` `-` `*` `/` | Arithmetic operators |
-| `%` | Modulo operation |
-| `.` | Decimal point |
-| `Enter` or `=` | Calculate result |
-| `Backspace` | Delete last character |
-| `Escape` | Clear calculator |
+| Key             | Action                |
+| --------------- | --------------------- |
+| `0–9`           | Enter numeric values  |
+| `+` `-` `*` `/` | Arithmetic operators  |
+| `%`             | Modulo operation      |
+| `.`             | Decimal point         |
+| `Enter` or `=`  | Calculate result      |
+| `Backspace`     | Delete last character |
+| `Escape`        | Clear calculator      |
 
 ## Implementation Highlights
 
@@ -179,20 +190,14 @@ This project strengthened practical understanding of:
 
 ## Internship Information
 
-| Information | Details |
-|---|---|
-| Organization | Oasis Infobyte |
+| Information      | Details                     |
+| ---------------- | --------------------------- |
+| Organization     | Oasis Infobyte              |
 | Internship Track | Web Development & Designing |
-| Level | Level 2 |
-| Project | Calculator |
-| Developer | Muh. Azzam Izzadin |
+| Level            | Level 2                     |
+| Project          | Calculator                  |
+| Developer        | Muh. Azzam Izzadin          |
 
 ---
 
-<p align="center">
-  <strong>Developed by Muh. Azzam Izzadin</strong>
-  <br />
-  Web Development & Designing — Level 2
-  <br />
-  <sub>Oasis Infobyte Internship Program</sub>
-</p>
+\<p align="center">   \*\*Developed by Muh. Azzam Izzadin\*\*   \<br />   Web Development & Designing — Level 2   \<br />   \<sub>Oasis Infobyte Internship Program\</sub> \</p>
