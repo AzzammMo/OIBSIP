@@ -1,16 +1,16 @@
 # Daylist — Personal Task Management Application
 
-\<p align="center">
-&#x20; \<strong>Make Room for What Matters.\</strong>
-&#x20; \<br />
-&#x20; A Simple, Elegant & Interactive To-Do Web Application
-&#x20; \<br />
-&#x20; Built with HTML5, CSS3, and Vanilla JavaScript
-\</p>
+<p align="center">
+  <strong>Make Room for What Matters.</strong>
+  <br />
+  A Simple, Elegant & Interactive To-Do Web Application
+  <br />
+  Built with HTML5, CSS3, and Vanilla JavaScript
+</p>
 
-\<p align="center">
-&#x20; \<img src="screenshots/daylist-preview\.png" alt="Daylist Task Management Application Preview" width="850" />
-\</p>
+<p align="center">
+  <img src="screenshots/daylist-preview.png" alt="Daylist Task Management Application Preview" width="850" />
+</p>
 
 ---
 
@@ -65,27 +65,49 @@ Tasks can remain available after refreshing the browser, without requiring a bac
 
 ## Technology Stack
 
-| Technology         | Purpose                                          |
-| ------------------ | ------------------------------------------------ |
-| HTML5              | Semantic application structure and forms         |
-| CSS3               | Interface styling, layout, and responsive design |
-| Vanilla JavaScript | Task management logic and DOM manipulation       |
-| Local Storage      | Client-side task data persistence                |
-| Google Fonts       | DM Sans and Manrope typography                   |
+| Technology | Purpose |
+|---|---|
+| HTML5 | Semantic application structure and forms |
+| CSS3 | Interface styling, layout, and responsive design |
+| Vanilla JavaScript | Task management logic and DOM manipulation |
+| Local Storage | Client-side task data persistence |
+| Google Fonts | DM Sans and Manrope typography |
 
 **No external JavaScript frameworks or backend services are required.**
 
 ## Application Preview
 
-Add actual screenshots of the running application to the `screenshots/` directory.
+The following screenshots demonstrate the main interfaces and functionality of Daylist.
 
-| Screenshot              | Description                       |
-| ----------------------- | --------------------------------- |
-| `daylist-preview.png`   | Main application dashboard        |
-| `pending-tasks.png`     | Pending task management interface |
-| `completed-tasks.png`   | Completed task list               |
-| `progress-tracking.png` | Daily progress indicator          |
-| `mobile-view.png`       | Responsive mobile interface       |
+<p align="center">
+  <img src="screenshots/daylist-preview.png" alt="Daylist Main Dashboard" width="850" />
+  <br />
+  <em>Main application dashboard</em>
+</p>
+
+<p align="center">
+  <img src="screenshots/pending-tasks.png" alt="Daylist Pending Tasks" width="850" />
+  <br />
+  <em>Pending task management interface</em>
+</p>
+
+<p align="center">
+  <img src="screenshots/completed-tasks.png" alt="Daylist Completed Tasks" width="850" />
+  <br />
+  <em>Completed task list</em>
+</p>
+
+<p align="center">
+  <img src="screenshots/progress-tracking.png" alt="Daylist Progress Tracking" width="850" />
+  <br />
+  <em>Daily progress tracking</em>
+</p>
+
+<p align="center">
+  <img src="screenshots/mobile-view.png" alt="Daylist Mobile Interface" width="400" />
+  <br />
+  <em>Responsive mobile interface</em>
+</p>
 
 ## Project Structure
 
@@ -100,14 +122,14 @@ WebDev-L2-ToDoApp/
 ├── js/
 │   └── app.js
 │
-├── README.md
+├── screenshots/
+│   ├── daylist-preview.png
+│   ├── pending-tasks.png
+│   ├── completed-tasks.png
+│   ├── progress-tracking.png
+│   └── mobile-view.png
 │
-└── screenshots/
-    ├── daylist-preview.png
-    ├── pending-tasks.png
-    ├── completed-tasks.png
-    ├── progress-tracking.png
-    └── mobile-view.png
+└── README.md
 ```
 
 ## Installation & Setup
@@ -171,10 +193,10 @@ The progress indicator represents the proportion of completed tasks relative to 
 The general calculation is:
 
 ```javascript
-progress = (completedTasks / totalTasks) * 100;
+progress = totalTasks > 0
+    ? (completedTasks / totalTasks) * 100
+    : 0;
 ```
-
-An empty task list should be handled separately to avoid division by zero.
 
 ### 4. Browser-Based Data Persistence
 
@@ -199,15 +221,21 @@ Through this project, I strengthened my practical understanding of:
 
 ## Internship Information
 
-| Information      | Details                     |
-| ---------------- | --------------------------- |
-| Organization     | Oasis Infobyte              |
+| Information | Details |
+|---|---|
+| Organization | Oasis Infobyte |
 | Internship Track | Web Development & Designing |
-| Level            | Level 2                     |
-| Task             | To-Do Web App               |
-| Application Name | Daylist                     |
-| Developer        | Muh. Azzam Izzadin          |
+| Level | Level 2 |
+| Task | To-Do Web App |
+| Application Name | Daylist |
+| Developer | Muh. Azzam Izzadin |
 
 ---
 
-\<p align="center">   \<strong>Designed & Developed by Muh. Azzam Izzadin\</strong>   \<br />   Web Development & Designing — Level 2   \<br />   \<sub>Oasis Infobyte Internship Program\</sub> \</p>
+<p align="center">
+  <strong>Designed & Developed by Muh. Azzam Izzadin</strong>
+  <br />
+  Web Development & Designing — Level 2
+  <br />
+  <sub>Oasis Infobyte Internship Program</sub>
+</p>
