@@ -1,16 +1,10 @@
 # Northstar — User Authentication System
 
-<p align="center">
-  <strong>Your Space. Your Momentum.</strong>
-  <br />
-  A Modern Web-Based Authentication Application
-  <br />
-  Built with HTML5, CSS3, JavaScript, Node.js, and Express.js
-</p>
+**Your Space. Your Momentum.**
 
-<p align="center">
-  <img src="screenshots/northstar-preview.png" alt="Northstar Authentication Interface Preview" width="850" />
-</p>
+A Modern Web-Based Authentication Application
+
+Built with HTML5, CSS3, JavaScript, Node.js, and Express.js
 
 ---
 
@@ -114,7 +108,7 @@ Northstar follows a client-server architecture that separates frontend interacti
                v
        Authentication Logic
                |
-          bcryptjs
+             bcryptjs
                |
                v
          JSON User Storage
@@ -122,8 +116,8 @@ Northstar follows a client-server architecture that separates frontend interacti
                v
        Session Management
                |
-        Authentication
-           Successful
+          Authentication
+             Successful
                |
                v
        Protected Dashboard
@@ -184,15 +178,37 @@ The application implements several security-related mechanisms:
 
 ## Application Preview
 
-Add actual screenshots of the running Northstar application to the `screenshots/` directory.
+The following screenshots showcase the Northstar authentication interface, registration workflow, password validation, authenticated dashboard, and responsive mobile layout.
 
-| Screenshot | Description |
-|---|---|
-| `northstar-preview.png` | Main sign-in interface |
-| `register-interface.png` | User registration interface |
-| `password-strength.png` | Password strength and validation indicators |
-| `dashboard-preview.png` | Authenticated user dashboard |
-| `mobile-view.png` | Responsive authentication interface |
+### 1. Main Authentication Interface
+
+![Northstar Authentication Interface](screenshots/northstar-preview.png)
+
+*Main sign-in interface featuring the Northstar split-screen design.*
+
+### 2. User Registration Interface
+
+![Northstar Registration Interface](screenshots/register-interface.png)
+
+*Account registration form with username, email, and password fields.*
+
+### 3. Password Strength and Validation
+
+![Northstar Password Strength](screenshots/password-strength.png)
+
+*Interactive password strength indicator and real-time password requirement feedback.*
+
+### 4. Authenticated User Dashboard
+
+![Northstar Dashboard](screenshots/dashboard-preview.png)
+
+*Protected dashboard displaying authenticated user account information.*
+
+### 5. Responsive Mobile Interface
+
+![Northstar Mobile Interface](screenshots/mobile-view.png)
+
+*Responsive authentication interface adapted for smaller screen sizes.*
 
 ## Project Structure
 
@@ -325,10 +341,8 @@ Through this project, I strengthened my practical understanding of:
 
 ---
 
-<p align="center">
-  <strong>Designed & Developed by Muh. Azzam Izzadin</strong>
-  <br />
-  Web Development & Designing — Level 2
-  <br />
-  <sub>Oasis Infobyte Internship Program</sub>
-</p>
+**Designed & Developed by Muh. Azzam Izzadin**
+
+Web Development & Designing — Level 2
+
+*Oasis Infobyte Internship Program*
